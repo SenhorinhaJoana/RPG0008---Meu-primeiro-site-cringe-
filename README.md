@@ -1,21 +1,75 @@
-#🍲 Meu Primeiro Site "Cringe"
+# 🍲 Meu Primeiro Site "Cringe"
+
 Missão Prática | Nível 1 | Mundo 2
 
-📚 Minha Experiência
-Este projeto foi uma excelente oportunidade para aplicar meus conhecimentos no desenvolvimento fullstack. Implementei um site responsivo para visualização de receitas culinárias, utilizando HTML e CSS, incluindo elementos do framework Bootstrap para estilização.
+## 📚 Descrição do Projeto
 
-🎯 Objetivos Alcançados
-Durante o desenvolvimento deste projeto, pude:
+Este projeto consiste na implementação de um site voltado para o fornecimento de receitas culinárias utilizando apenas HTML e CSS. É um exercício prático para aplicar os conhecimentos adquiridos no curso de Desenvolvimento Fullstack.
 
-Estruturar páginas HTML utilizando elementos semânticos e definindo uma boa arquitetura de informações.
-Aplicar CSS para estilizar o layout do site, garantindo uma experiência visual agradável e funcional.
-Utilizar o Bootstrap para adicionar componentes e facilitar a responsividade das páginas.
-Trabalhar com dados estáticos diretamente no HTML, aprendendo a organizar e exibir informações de forma eficaz.
-🚀 Desafios Superados
-Enfrentei desafios como a formatação das receitas em divs organizadas no modo flex, o que me ajudou a entender melhor como o CSS pode ser utilizado para layouts dinâmicos. Além disso, implementei um formulário de cadastro com validação dos campos utilizando classes Bootstrap, o que agregou mais interatividade ao site.
+## 🎯 Objetivos
 
-📈 Resultados e Aprendizados
-Este projeto não apenas consolidou minhas habilidades básicas em desenvolvimento web, mas também me deu confiança para explorar novas tecnologias e frameworks. Aprendi a importância da organização do código e da utilização de ferramentas como o Visual Studio Code para otimizar meu fluxo de trabalho.
+Ao final deste projeto, você terá:
 
-📝 Próximos Passos
-Estou animada para continuar explorando o desenvolvimento fullstack e expandir meu conhecimento em tecnologias como JavaScript, APIs RESTful e banco de dados. Este projeto foi apenas o primeiro passo em minha jornada para me tornar uma desenvolvedora completa e contribuir de forma significativa na área de tecnologia.
+- Implementado um site responsivo para visualização de receitas culinárias.
+- Utilizado HTML para definir a estrutura do site.
+- Aplicado CSS, incluindo elementos do framework Bootstrap, para estilizar as páginas.
+- Trabalhado com dados estáticos diretamente no HTML.
+
+## 🔧 Materiais Necessários
+
+- Computador com acesso à internet.
+- Editor de código [Visual Studio Code](https://code.visualstudio.com/).
+- Navegador de internet.
+
+## 🚀 Desenvolvimento da Prática
+
+### 👉 1º Procedimento | Página Inicial
+
+1. Crie um diretório chamado `receitas` e abra-o no Visual Studio Code.
+2. Crie uma página `home.html` com a estrutura básica de HTML5:
+    - Altere a linguagem para `pt-br`.
+    - Inclua elementos semânticos para estruturar o site.
+    - Defina uma área para o menu.
+    - Adicione uma imagem png como logotipo do site.
+    - Defina a área principal com logotipo, título e mensagem de boas-vindas.
+    - Crie uma área de rodapé com informação de copyright.
+3. Crie o arquivo `formatos.css` para a formatação:
+    - Defina uma classe para o logotipo com largura e altura de 50 pixels.
+    - Estilize as áreas semânticas e características tipográficas globais.
+    - Explore o modo flex para a visualização.
+
+### 👉 2º Procedimento | Página de Receitas
+
+1. Crie uma página `receitas.html` com estrutura básica similar ao `home.html`.
+2. Defina:
+    - Área para o menu.
+    - Área principal com apresentação das receitas em `divs` organizadas no modo flex.
+    - Cada `div` deve incluir nome da receita, foto do prato, itens utilizados e modo de preparo.
+    - Rodapé com informação de copyright.
+3. Inclua `formatos.css` e crie `receitas.css` para a formatação específica das receitas.
+
+### 👉 3º Procedimento | Formulário e Navegação
+
+1. Crie uma página `cadastro.html`.
+2. Estruture a página com:
+    - Área para o menu.
+    - Área principal com título e formulário de cadastro utilizando classes Bootstrap.
+    - Campos obrigatórios: nome, e-mail, rua, número, complemento, cidade, estado e CEP.
+    - Rodapé com informação de copyright.
+3. Adicione um menu de navegação utilizando listas e classes do Bootstrap.
+
+### 👉 4º Procedimento | Finalização do Site
+
+1. Modifique `home.html` e `receitas.html` para incluir o menu de navegação e link para o Bootstrap.
+2. Ajuste o sistema de painéis na `receitas.html` para o uso de classes Bootstrap como `card`, `card-img-top`, `card-body`, `card-title` e `card-text`.
+
+## 📈 Resultados Esperados
+
+- Código organizado e funcional.
+- Exploração das funcionalidades do Visual Studio Code.
+- Demonstração das habilidades básicas para a construção de páginas HTML e uso do CSS.
+
+## 📝 Entrega da Prática
+
+1. Armazene o seu projeto em um repositório no GitHub.
+2. Compartilhe o link com o seu tutor para correção da prática.
