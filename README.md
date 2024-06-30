@@ -2,20 +2,20 @@
 
 Missão Prática | Nível 1 | Mundo 2
 
-## 📚 Descrição do Projeto
+## 📚 Minha Experiência
 
-Este projeto consiste na implementação de um site voltado para o fornecimento de receitas culinárias utilizando apenas HTML e CSS. É um exercício prático para aplicar os conhecimentos adquiridos no curso de Desenvolvimento Fullstack.
+Este projeto foi uma excelente oportunidade para aplicar meus conhecimentos no desenvolvimento fullstack. Implementei um site responsivo para visualização de receitas culinárias, utilizando apenas HTML, CSS e Bootstrap. O objetivo foi criar uma experiência interativa e esteticamente agradável para os usuários interessados em descobrir novas receitas.
 
-## 🎯 Objetivos
+## 🎯 Objetivos Alcançados
 
-Ao final deste projeto, você terá:
+Durante o desenvolvimento deste projeto, pude:
 
-- Implementado um site responsivo para visualização de receitas culinárias.
-- Utilizado HTML para definir a estrutura do site.
-- Aplicado CSS, incluindo elementos do framework Bootstrap, para estilizar as páginas.
-- Trabalhado com dados estáticos diretamente no HTML.
+- Estruturar páginas HTML utilizando elementos semânticos para uma melhor acessibilidade e SEO.
+- Aplicar estilos CSS para garantir uma apresentação visualmente atraente e consistente em diferentes dispositivos.
+- Utilizar o framework Bootstrap para facilitar a implementação de layouts responsivos e componentes interativos.
+- Integrar dados estáticos diretamente no HTML para apresentar receitas de forma organizada e informativa.
 
-## 🔧 Materiais Necessários
+## 🔧 Ferramentas Utilizadas
 
 - Computador com acesso à internet.
 - Editor de código [Visual Studio Code](https://code.visualstudio.com/).
@@ -25,51 +25,37 @@ Ao final deste projeto, você terá:
 
 ### 👉 1º Procedimento | Página Inicial
 
-1. Crie um diretório chamado `receitas` e abra-o no Visual Studio Code.
-2. Crie uma página `home.html` com a estrutura básica de HTML5:
-    - Altere a linguagem para `pt-br`.
-    - Inclua elementos semânticos para estruturar o site.
-    - Defina uma área para o menu.
-    - Adicione uma imagem png como logotipo do site.
-    - Defina a área principal com logotipo, título e mensagem de boas-vindas.
-    - Crie uma área de rodapé com informação de copyright.
-3. Crie o arquivo `formatos.css` para a formatação:
-    - Defina uma classe para o logotipo com largura e altura de 50 pixels.
-    - Estilize as áreas semânticas e características tipográficas globais.
-    - Explore o modo flex para a visualização.
+1. Criei um diretório chamado `receitas` e abri no Visual Studio Code.
+2. Implementei a página `home.html` com a estrutura básica de HTML5:
+   - Defini a linguagem como `pt-br`.
+   - Utilizei elementos semânticos para organizar o conteúdo.
+   - Incluí uma área para o menu e adicionei um logotipo para identidade visual.
+   - Estilizei a página utilizando CSS no arquivo `formatos.css`, seguindo as diretrizes do Bootstrap.
 
 ### 👉 2º Procedimento | Página de Receitas
 
-1. Crie uma página `receitas.html` com estrutura básica similar ao `home.html`.
-2. Defina:
-    - Área para o menu.
-    - Área principal com apresentação das receitas em `divs` organizadas no modo flex.
-    - Cada `div` deve incluir nome da receita, foto do prato, itens utilizados e modo de preparo.
-    - Rodapé com informação de copyright.
-3. Inclua `formatos.css` e crie `receitas.css` para a formatação específica das receitas.
+1. Desenvolvi a página `receitas.html` com foco na apresentação das receitas:
+   - Utilizei divs e flexbox para organizar as receitas de forma responsiva.
+   - Cada receita foi apresentada com nome, foto do prato, ingredientes e modo de preparo.
+   - Apliquei estilos específicos utilizando `receitas.css` para garantir a consistência visual.
 
 ### 👉 3º Procedimento | Formulário e Navegação
 
-1. Crie uma página `cadastro.html`.
-2. Estruture a página com:
-    - Área para o menu.
-    - Área principal com título e formulário de cadastro utilizando classes Bootstrap.
-    - Campos obrigatórios: nome, e-mail, rua, número, complemento, cidade, estado e CEP.
-    - Rodapé com informação de copyright.
-3. Adicione um menu de navegação utilizando listas e classes do Bootstrap.
+1. Criei a página `cadastro.html` com um formulário de cadastro:
+   - Utilizei classes do Bootstrap para estruturar o formulário e aplicar estilos responsivos.
+   - Validei campos obrigatórios como nome, e-mail, endereço, cidade e CEP para garantir a integridade dos dados.
+   - Adicionei um menu de navegação utilizando listas e estilização Bootstrap para melhorar a experiência de navegação.
 
-### 👉 4º Procedimento | Finalização do Site
+## 📈 Resultados e Aprendizados
 
-1. Modifique `home.html` e `receitas.html` para incluir o menu de navegação e link para o Bootstrap.
-2. Ajuste o sistema de painéis na `receitas.html` para o uso de classes Bootstrap como `card`, `card-img-top`, `card-body`, `card-title` e `card-text`.
+Este projeto não apenas consolidou minhas habilidades em desenvolvimento web, mas também me proporcionou uma compreensão mais profunda sobre a importância da organização do código e a utilização de ferramentas como o Visual Studio Code para melhorar a eficiência no desenvolvimento. Aprendi como criar interfaces atrativas e funcionais usando HTML, CSS e Bootstrap, além de integrar recursos estáticos de forma eficaz.
 
-## 📈 Resultados Esperados
+## 📝 Próximos Passos
 
-- Código organizado e funcional.
-- Exploração das funcionalidades do Visual Studio Code.
-- Demonstração das habilidades básicas para a construção de páginas HTML e uso do CSS.
+Estou entusiasmada para continuar explorando o mundo do desenvolvimento web. Meu objetivo é aprofundar meu conhecimento em JavaScript para tornar minhas aplicações mais dinâmicas e interativas. Além disso, pretendo aprender sobre APIs RESTful e bancos de dados para expandir minhas capacidades como desenvolvedora fullstack.
 
 ## 📝 Entrega da Prática
 
-1. Armazene o seu projeto em um repositório no GitHub.
-2. Compartilhe o link com o seu tutor para correção da prática.
+1. Armazenei meu projeto em um repositório no GitHub para revisão e feedback.
+2. Compartilhei o link do repositório com meu tutor para correção da prática e discussão sobre melhorias.
+
